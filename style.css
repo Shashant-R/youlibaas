@@ -1,0 +1,42 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 2vh;
+    /*background-color: rgb(203, 203, 231);*/
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 7.5vh;
+    font-weight: bolder;
+}
+img{
+    margin: auto;
+    padding: 2vh;
+    border-radius: 25%;
+}
+.card{
+    text-align: left;
+    padding: 2vh;
+    display: inline-block;
+    border: black 1px solid;
+    width: fit-content;
+    margin: 2vh;
+}
+.card:hover{
+    background-color: rgba(156, 45, 45, 0.671);
+    color: #FFFFFF;
+    transition: 500ms;
+    cursor: pointer;
+}
